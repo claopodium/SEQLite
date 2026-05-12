@@ -61,7 +61,7 @@ The final output is a Heatmap that maps out the impact of every mutation at ever
 
 ## Example: GB1 Domain Analysis
 
-The GB1 (Streptococcal protein G B1 domain) is a small, highly stable protein domain widely used in protein engineering.In this benchmark, we randomly sampled 2,000 sequences from a massive dataset containing ~500,000 sequence-phenotype mappings to train an XGBoost model. As shown below, the deeper-colored rows/columns highlight key functional positions that closely match empirical data from biophysical wet-lab experiments.
+The GB1 (Streptococcal protein G B1 domain) is a small, highly stable protein domain widely used in protein engineering.In this benchmark, we randomly sampled 2,000 sequences (```test.csv```) from a massive dataset containing ~500,000 sequence-phenotype mappings to train an XGBoost model. As shown below, the deeper-colored rows/columns highlight key functional positions that closely match empirical data from biophysical wet-lab experiments.
 
 
 ![alt text](image.png)
